@@ -4,13 +4,15 @@ let messages = document.querySelector(".messages");
 // CODE ALONG, PART 1 CONTINUED
 // 3. Declare a variable to store the input element
 
+let myVar = document.querySelector(".user-input");
 
 submitButton.addEventListener("click", function() {
     // 4. Declare a variable to store the value of the input
     // 5. Use the console to check a value is saved.
     //  - Type something and click the button to confirm it works!
 
-
+    let userComment = myVar.value;
+    console.log(userComment);
     
 
     // CODE ALONG, PART 2
